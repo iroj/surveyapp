@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "778541042847",
+    "project_id": "celtic-bazaar-153912"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778541042847:android:8771b7dbf6b63f26",
+        "android_client_info": {
+          "package_name": "com.survey.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778541042847-q1gg6ec7t6c4l8psua2p6ab95sh7e09n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.survey.app",
+            "certificate_hash": "88f0603d7f81b650709cf7da9a6ca4cb4a220f23"
+          }
+        },
+        {
+          "client_id": "778541042847-6pmbhr9117h6msgpgvm1n2brapoetbph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmcPLxA5oIJMeWs6b7wPRcO7g5yiOqRgA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

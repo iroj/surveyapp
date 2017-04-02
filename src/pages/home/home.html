@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-navbar>
+        <ion-buttons start>
+            <button ion-button icon-only class='menuButton' menuToggle>
+                <ion-icon name="menu"></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-title>Home</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list>
+        <ion-list-header>
+            Active Surveys
+        </ion-list-header>
+        <ion-item *ngFor='let survey of surveys'>{{survey.name}}</ion-item>
+        <ion-item *ngIf='surveys.length===0'>No active survey</ion-item>
+    </ion-list>
+    <ion-list>
+        <ion-list-header>
+            On-deck Surveys
+        </ion-list-header>
+        <ion-item *ngFor='let survey of surveys'>{{survey.name}}</ion-item>
+        <ion-item *ngIf='surveys.length===0'>No on-deck survey</ion-item>
+    </ion-list>
+</ion-content>
